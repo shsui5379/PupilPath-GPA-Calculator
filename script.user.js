@@ -8,8 +8,9 @@
 
 (function() {
     'use strict';
-    //increase the second argument's value if your internet is slow
-    setTimeout(action, 2500);
+    window.addEventListener('load', function() {
+        action();
+    }, false);
 })();
 
 function action() {
@@ -48,5 +49,5 @@ function action() {
         }
     }
 
-    alert(gradeAccumulator / creditAccumulator);
+    alert(Math.round(((gradeAccumulator / creditAccumulator) + Number.EPSILON) * 1000) / 1000);
 }
