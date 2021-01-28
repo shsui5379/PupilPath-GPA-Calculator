@@ -49,5 +49,5 @@ function action() {
         }
     }
 
-    alert(gradeAccumulator / creditAccumulator);
+    alert(Math.round(((gradeAccumulator / creditAccumulator) + Number.EPSILON) * 1000) / 1000);
 }
