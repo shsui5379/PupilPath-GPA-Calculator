@@ -3,7 +3,6 @@
 // @version      1.0
 // @description  Calculates your GPA based on PupilPath's transcript
 // @match        https://pupilpath.skedula.com/Grades/Transcript/
-// @downloadURL  https://raw.githubusercontent.com/shsui5379/PupilPath-GPA-Calculator/main/script.js
 // @grant        none
 // ==/UserScript==
 
