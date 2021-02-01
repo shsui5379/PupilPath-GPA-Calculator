@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         PupilPath Transcript GPA Calculator
-// @version      1.1
+// @version      1.2
 // @description  Calculates your GPA based on PupilPath's transcript
 // @match        https://pupilpath.skedula.com/Grades/Transcript/
 // @grant        none
@@ -9,7 +9,10 @@
 (function() {
     'use strict';
     window.addEventListener('load', function() {
-        action();
+        var button = document.createElement("button");
+        button.innerText = "Calculate GPA";
+        button.addEventListener('click', action);
+        document.getElementsByClassName("content-box-header")[0].appendChild(button);
     }, false);
 })();
 
