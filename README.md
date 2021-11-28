@@ -1,5 +1,5 @@
 # PupilPath-GPA-Calculator
-TamperMonkey script to calculate your weighted GPA from PupilPath's Transcript page
+TamperMonkey script to calculate your weighted GPA from PupilPath's Transcript page.  Based on NYCDOE high school course codes.
 
 Installation instruction:
 1. Install TamperMonkey from your browser's extension store
