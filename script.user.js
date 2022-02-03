@@ -2,7 +2,7 @@
 // @name         PupilPath Transcript GPA Calculator
 // @version      1.2
 // @description  Calculates your GPA based on PupilPath's transcript
-// @match        https://pupilpath.skedula.com/Grades/Transcript/
+// @match        https://pupilpath.com/Grades/Transcript/
 // @grant        none
 // ==/UserScript==
 
