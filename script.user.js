@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         PupilPath Transcript GPA Calculator
-// @version      1.2
+// @version      1.2.1
 // @description  Calculates your GPA based on PupilPath's transcript
 // @match        https://pupilpath.com/Grades/Transcript/
 // @grant        none
